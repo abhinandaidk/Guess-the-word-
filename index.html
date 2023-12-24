@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Afacad&family=Bangers&family=DM+Serif+Display&family=Encode+Sans&family=Luckiest+Guy&family=Passion+One:wght@700&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=DM+Serif+Display&family=Encode+Sans&family=Luckiest+Guy&family=Passion+One:wght@700&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	<center>
+<h1>GUESS THE WORD</h1>
+<br>
+<br>
+<div class="container">
+	<h4>Player 1</h4>
+	<input id="player1_name"class="inp"type="text">
+	<br>
+	<h4>Player 2 </h4>
+	<input id="player2_name" class="inp" type="text">
+</div>
+<div class="container">
+	<h3><b>RULES</b></h3>
+	<ul>
+		<li> One player will input a word with 5 or more characters</li>
+		<li> The word will be disguised with blanks with a few helping letters </li>
+		<li> The other player will have to guess the word</li>
+		<li> If they are right, they get a POINT!! Otherwise nobody gets a point </li>
+		<span style='font-size:100px;'>&#128512;</span><li><b><i>Good Luck!</i></b></li>
+	</ul>	
+</div>
+<br>
+<button class="btn btn-success" onclick="login()">Login</button> 
+</center>
+</body>
+</html>

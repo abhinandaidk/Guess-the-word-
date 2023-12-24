@@ -1,0 +1,75 @@
+body
+{
+	background: lightblue;
+	font-size: 20px;
+	font-family:Afacad;
+}
+h1{
+	font-family:Rubik Doodle Shadow;
+	font-size: 100px;
+	border-bottom:solid;
+	text-align: center;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+h4{
+	font-size: 30px;
+	font-family:Afacad;
+}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: whitesmoke;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.container{
+	background-color: white;
+	border-radius: 50px;
+	margin-top: 20px;
+	padding-bottom:10px;
+}
+.inp{
+height:30px;
+width:500px;
+}
+button{
+	width:150px;
+	border-radius:300px;
+}
+#con{
+	background-color:lightblue;
+	color:black;
+}
+#player1_scorename{
+	margin-left:20px;
+	font-size: 30px;
+	display:inline-block;
+}
+#player2_scorename{
+	margin-left: 20px;
+	font-size: 30px;
+	display: inline-block;
+}
